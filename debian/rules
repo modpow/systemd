@@ -23,7 +23,8 @@ CONFFLAGS = \
 CONFFLAGS_deb = \
 	--enable-selinux \
 	--enable-introspection \
-	--enable-gtk-doc
+	--enable-gtk-doc \
+	--enable-microhttpd
 
 CONFFLAGS_udeb = \
 	--disable-selinux \

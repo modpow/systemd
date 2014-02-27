@@ -36,6 +36,7 @@ usr/share/doc/
 usr/share/pkgconfig/systemd.pc
 usr/share/polkit-1/
 usr/share/systemd/kbd-model-map
+usr/share/systemd/gatewayd/browse.html
 usr/lib/binfmt.d/
 usr/lib/modules-load.d/
 usr/lib/sysctl.d/

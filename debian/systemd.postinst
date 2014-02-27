@@ -84,6 +84,9 @@ if ! getent group systemd-journal >/dev/null; then
     addgroup --system systemd-journal
 fi
 
+adduser --quiet --system --disabled-login --group \
+    --no-create-home --home /var/log/journal systemd-journal-gateway
+
 # initial update of the Message Catalogs database
 _update_catalog
 
